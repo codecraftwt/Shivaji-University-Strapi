@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_announcements_tickers",
+  "info": {
+    "displayName": "Announcements Ticker",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "announcements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.ticker-item"
+    }
+  }
+}

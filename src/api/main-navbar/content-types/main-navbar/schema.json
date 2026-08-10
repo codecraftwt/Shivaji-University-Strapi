@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_navbars",
+  "info": {
+    "singularName": "main-navbar",
+    "pluralName": "main-navbars",
+    "displayName": "Main Navbar"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "menu_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main-navbar.menu-item"
+    }
+  }
+}

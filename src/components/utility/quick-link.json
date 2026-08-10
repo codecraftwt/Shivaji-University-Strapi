@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_utility_quick_links",
+  "info": {
+    "displayName": "quick-link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "enumeration",
+      "enum": [
+        "ChartBarIcon",
+        "GlobeAltIcon",
+        "BookOpenIcon",
+        "AcademicCapIcon",
+        "ComputerDesktopIcon",
+        "DocumentCheckIcon",
+        "LightBulbIcon",
+        "UserGroupIcon",
+        "LinkIcon",
+        "ArrowRightIcon",
+        "InformationCircleIcon",
+        "BriefcaseIcon",
+        "BuildingLibraryIcon",
+        "CalendarIcon",
+        "ClipboardDocumentListIcon",
+        "SparklesIcon",
+        "TrophyIcon"
+      ],
+      "default": "LinkIcon",
+      "required": true
+    }
+  }
+}

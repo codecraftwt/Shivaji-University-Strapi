@@ -1,0 +1,1224 @@
+[
+  {
+    "label": "Home",
+    "href": "https://inherent-duck.jurassic.ninja/",
+    "children": []
+  },
+  {
+    "label": "ABOUT US",
+    "href": "https://inherent-duck.jurassic.ninja/about-us/",
+    "children": [
+      {
+        "label": "About us",
+        "href": "#",
+        "children": [
+          {
+            "label": "About Kolhapur",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "SUK Google Map",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Contact Information",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "How to reach SUK",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "About University",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Board of Deans",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Authorities and Bodies",
+        "href": "#",
+        "children": [
+          {
+            "label": "Senate",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Management Council",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Academic Council",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Declaration of Student Council",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Faculties",
+            "href": "#",
+            "children": [
+              {
+                "label": "Faculty of Science and Technology",
+                "href": "#",
+                "children": []
+              },
+              {
+                "label": "Faculty of Commerce and Management",
+                "href": "#",
+                "children": []
+              },
+              {
+                "label": "Faculty of Humanities",
+                "href": "#",
+                "children": []
+              },
+              {
+                "label": "Faculty of Inter Disciplinary Studies",
+                "href": "#",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "BOS",
+            "href": "#",
+            "children": [
+              {
+                "label": "Under the Faculty of Science and Technology",
+                "href": "#",
+                "children": []
+              },
+              {
+                "label": "Under the Faculty of Commerce and Management",
+                "href": "#",
+                "children": []
+              },
+              {
+                "label": "Under the Faculty of Humanities",
+                "href": "#",
+                "children": []
+              },
+              {
+                "label": "Under the Faculty of Inter Disciplinary Studies",
+                "href": "#",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "AD-HOC BOARD",
+            "href": "#",
+            "children": [
+              {
+                "label": "Under the Faculty of Science and Technology",
+                "href": "#",
+                "children": []
+              },
+              {
+                "label": "Under the Faculty of Humanities",
+                "href": "#",
+                "children": []
+              },
+              {
+                "label": "Under the Faculty of Inter Disciplinary Studies",
+                "href": "#",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "Board of University Departments and Inter Disciplinary Studies",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Fee Fixation Committee",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Vision, Mission and Goals",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Hon’ble Chancellor",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Hon’ble Vice Chancellor Desk",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Hon’ble PRO-Vice Chancellor Desk",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Former Vice Chancellors",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Organization Structure",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "University Officers",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Holidays in 2024",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Office Working Hours",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "UNIVERSITY ORGANOGRAM",
+        "href": "#",
+        "children": [
+          {
+            "label": "Hon’ble Vice Chancellor",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Hon’ble PRO-Vice Chancellor",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Statistical Information",
+        "href": "#",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "ACADEMICS",
+    "href": "#",
+    "children": [
+      {
+        "label": "Academic Programs",
+        "href": "#",
+        "children": [
+          {
+            "label": "LIST OF PROGRAMS OFFERED ON CAMPUS",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Explore Our Programs",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Lifelong Learning",
+        "href": "#",
+        "children": [
+          {
+            "label": "Lifelong Learning and Extension",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Center For Community Development",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Center for Distance Education",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Museum",
+        "href": "#",
+        "children": [
+          {
+            "label": "V. S. Khandekar Memorial Museum",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Departments and Schools On Campus",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Centers and Chairs",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Support Services",
+        "href": "#",
+        "children": [
+          {
+            "label": "University Science Instrumentation Center",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "University Library",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "University Industry Interaction Cell",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Computer Center",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Guest House",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Health Center",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "University Press",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Internet Unit",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Syllabus",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Learning Outcomes",
+        "href": "#",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "GOVERNANCE",
+    "href": "#",
+    "children": [
+      {
+        "label": "Authorities",
+        "href": "#",
+        "children": [
+          {
+            "label": "Registrar",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Director, Board of Examinations and Evaluation",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Finance and Accounts Officer",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Act Documents",
+        "href": "#",
+        "children": [
+          {
+            "label": "Maharashtra Universities Act 2016",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "General Statutes",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Circular of Statutes",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Ragging Prevention Act, 2009",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Amendment in Mah. Public Universities Act",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Ordinance",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Gazette for VC Post",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Ordinance 15 and 16",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Eligibility conditions for being elected nominated or co opted",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Statute regarding Empowered Autonomous Colleges, Empowered Autonomous Cluster Institution, Grant of Autonomy to Affiliated Colleges",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Uniform Statute No 01 of 2018 Student Development 358",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Uniform Statute No 02 of 2018 Director of National Service 361",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Uniform Statute No 06 of 2018 Business of Meeting Students Council 396",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Uniform-Statute No 07 of 2018 NNS NCC Sports and Culture Activities 394",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "2 Statute No.2 (Recovery)",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "3 Statute No.1 (Penalties)",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "19 Statute No.3 (Autonomous)",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "57 Statute No.4 (Meetings)",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "67 Statute No.5- Working of Students’ Grievance Redressal Cell",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "125 Election Statute Gazette",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "187 Uniform Statute-Norms and Procedure for Grant and Continuation of Status of Empowered Autonomous Colleges and etc",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "359 Uniform Statute Convocation",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "360 Uniform-Statute No-03-of-2018 Conferment of Honorary Degrees",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "395 Uniform-Statute No-05-of-2018 Function & Duties of Students Council",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "472 Uniform Statute- Uniform Statutes No.1 of  2022- Procedure for Permission to Transfer of Management of college or institution",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Gazette Ext. No.246-Convocation",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Gazette Ext. No.260- Procedures for conduct of business in meetings of university authorities",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Document for Citizen",
+        "href": "#",
+        "children": [
+          {
+            "label": "Citizen Charter",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "University Election 2022",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "University Election 2017",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Handbook of the Statutes and Regulation",
+        "href": "#",
+        "children": [
+          {
+            "label": "Maharashtra Public University Act, 2016",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Uniform Statute",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Notification and Orders",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "University Teachers Statutes Framed under Shivaji University ACT 1974",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Handbook of Rules and Policies",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Handbook of Regulations",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Notifications / Guidelines",
+        "href": "#",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "ADMISSION",
+    "href": "#",
+    "children": [
+      {
+        "label": "PG Admission 2024 2025",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Distance Education Admission",
+        "href": "#",
+        "children": [
+          {
+            "label": "Distance Mode Admission (CDOE)",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Online Mode Admission (CDOE)",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "UG Admission 2024 25",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Ph.D. Admission 2024 2025",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "AICTE Doctoral Fellow (ADF) PhD Admission 2022-2023",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Award, Scholarship Prize information",
+        "href": "#",
+        "children": [
+          {
+            "label": "SHIVAJI UNIVERSITY MERIT SCHOLARSHIP",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "GOVT. OF MAHARASHTRA",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "CENTRAL GOVERNMENT PRIZE AND SHISHYVRUTTI",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "SHIVAJI UNIVERSITY PRIZES",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "SHIVAJI UNIVERSITY PRIZES AND SCHOLARSHIP",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "RESEARCH SENSITIZATION",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "International Affairs Cell",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Fee Structure 2023 2024",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "UGC FEE REFUND POLICY 2023",
+        "href": "#",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "STUDENTS",
+    "href": "https://inherent-duck.jurassic.ninja/admission/for-student-information/",
+    "children": [
+      {
+        "label": "Students’ Development",
+        "href": "#",
+        "children": [
+          {
+            "label": "Department of Students’ Development",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Boys Hostel",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Girls Hostel",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "National Service Scheme (NSS)",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Scholarships",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Research Fellowship (DRF)",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Earn and Learn Scheme",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Work on Demand Scheme",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Student Council",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Remedial Coaching",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "I. A. S. Coaching",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Ragging Prevention Act 2009",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Student Development Cell",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "University Student  Grievance Redresses Cell",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Institutional Student Grievance Redressal Cell",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "NCC Sub-Unit",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Examinations",
+        "href": "#",
+        "children": [
+          {
+            "label": "Examination Time Table",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Examination Name Lists",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Examination Summary",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Hall Tickets",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Seating Arrangements",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Student’s Facilitation Centre",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Students Facilitation Centre",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Results",
+        "href": "#",
+        "children": [
+          {
+            "label": "How to get ?",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "How to apply for ?",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Download Forms",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Research",
+        "href": "#",
+        "children": [
+          {
+            "label": "Research Guidelist",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "M.Phil. Rules and Regulations",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "M.Phil. Process",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Ph. D. Rules and Regulations",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Ph. D. Process",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Plagiarism Check",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Alumni Connect Portal",
+        "href": "#",
+        "children": [
+          {
+            "label": "Alumni Association",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Alumni Registration",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Shivaji University Merit Scholarship 2023-2024",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Central Placement Cell",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Spoken Tutorial IIT Bombay (New)",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "BBK Knowledge Resource Center",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Online Syllabus",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "student council election",
+        "href": "#",
+        "children": [
+          {
+            "label": "ORDER – Procedure for Conducting Students Election",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "statute NO 5 – Functions and Duties of Students Council",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "statute NO 6 – Procedure for Conducting Business Meetings of Students Council",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "statute NO 7 – Nomination of students",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Advanced Technology Centre",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "SWAYAM",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Student Grievance Redressal Portal",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Digital Degree",
+        "href": "#",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "RESEARCH",
+    "href": "#",
+    "children": [
+      {
+        "label": "Research Topics at SUK.",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Ph D Registered Student Login",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Research Project Corner",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "INTELLECTUAL PROPERTY RIGHTS CELL",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "RESEARCH AND DEVELOPMENT CELL (RDC)",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "College and University Development Section",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Major Research Projects",
+        "href": "#",
+        "children": [
+          {
+            "label": "Ongoing Projects",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Research Initiatives",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "R and D Grants to Faculty",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Journal of Shivaji University",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Externally Funded Projects",
+        "href": "#",
+        "children": [
+          {
+            "label": "List of Projects",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Others",
+        "href": "#",
+        "children": [
+          {
+            "label": "Ordience Related to Reseach",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Awards",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Publications",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "UGC Research Fellowships",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "RGSTC-Assistance for S and T",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Teaching Assistantships",
+        "href": "#",
+        "children": [
+          {
+            "label": "Guidelines",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Advertisements",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Forms",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Result / Appointments",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Various National and International Funding Agency List for Research Projects, Schemes, Fellowship",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "IQAC",
+        "href": "#",
+        "children": [
+          {
+            "label": "Internal Quality Assurance Cell",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "NIRF DATA SUBMITTED",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Policies and Audits",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Feedback and Action Taken Report",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "IQAC-NAAC-European Union Project",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "University IIQA",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Self Study Report 4th Cycle",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "4th Cycle NAAC Peer Team Report",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Academic and Administrative Audit (AAA)",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Patent Details Documents 2021",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "4th Cycle NAAC Accreditation Certificate",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Photo Gallery",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "AQAR 2023-24",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "School Connect (NEP Connect)",
+            "href": "#",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "QUICK LINKS",
+    "href": "#",
+    "children": [
+      {
+        "label": "Online Receipt",
+        "href": "#",
+        "children": [
+          {
+            "label": "how to make online receipt payment",
+            "href": "#",
+            "children": []
+          },
+          {
+            "label": "Online Receipt Portal",
+            "href": "#",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "Gender Specific Initiatives",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Old Syllabus",
+        "href": "#",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "INCUBATION CENTER",
+    "href": "#",
+    "children": [
+      {
+        "label": "Incubation Center",
+        "href": "#",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "INTERNATIONAL AFFAIRS CELL",
+    "href": "#",
+    "children": []
+  },
+  {
+    "label": "NEP2020@SUK",
+    "href": "#",
+    "children": []
+  },
+  {
+    "label": "DISCLOSURE",
+    "href": "#",
+    "children": [
+      {
+        "label": "Mandatory Disclosure",
+        "href": "#",
+        "children": []
+      },
+      {
+        "label": "Public Self-Disclosure",
+        "href": "#",
+        "children": []
+      }
+    ]
+  }
+]

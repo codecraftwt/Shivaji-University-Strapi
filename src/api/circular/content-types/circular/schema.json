@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "circulars",
+  "info": {
+    "singularName": "circular",
+    "pluralName": "circulars",
+    "displayName": "Circular"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "General Administration",
+        "Affiliation",
+        "Examination",
+        "Finance",
+        "Board of Research"
+      ]
+    }
+  }
+}

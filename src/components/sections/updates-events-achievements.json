@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_sections_updates_events_achievements",
+  "info": {
+    "displayName": "Updates, Events & Achievements",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "updates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.title-link"
+    },
+    "events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.title-link"
+    },
+    "achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.title-link"
+    },
+    "updatesImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "eventsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "achievementsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

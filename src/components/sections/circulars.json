@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_circulars",
+  "info": {
+    "displayName": "Circulars",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "circulars": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.circular"
+    }
+  }
+}

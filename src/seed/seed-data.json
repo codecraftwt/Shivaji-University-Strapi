@@ -1,0 +1,393 @@
+{
+  "header": {
+    "instituteName": "Shivaji University, Kolhapur",
+    "phone": "(0231) 2609000",
+    "email": "info@unishivaji.ac.in"
+  },
+  "footer": {
+    "instituteName": "Shivaji University, Kolhapur",
+    "instituteSubtitle": "Maharashtra, India",
+    "address": "Vidyanagar, Kolhapur, Maharashtra, India (416004)",
+    "phone": "+91 231-2609000",
+    "email": "info@unishivaji.ac.in",
+    "columns": [
+      {
+        "title": "Useful Links",
+        "links": [
+          { "label": "Admissions", "href": "#" },
+          { "label": "Examinations", "href": "#" },
+          { "label": "Departments", "href": "#" },
+          { "label": "Affiliated Colleges", "href": "#" },
+          { "label": "Mandatory Disclosure", "href": "#" }
+        ]
+      },
+      {
+        "title": "Quick Links",
+        "links": [
+          { "label": "Library", "href": "#" },
+          { "label": "Placement Cell", "href": "#" },
+          { "label": "NIRF", "href": "#" },
+          { "label": "Student Portal", "href": "#" },
+          { "label": "e-Governance", "href": "#" }
+        ]
+      },
+      {
+        "title": "Other Links",
+        "links": [
+          { "label": "Alumni", "href": "#" },
+          { "label": "Research", "href": "#" },
+          { "label": "RTI", "href": "#" },
+          { "label": "Grievances Redressal", "href": "#" },
+          { "label": "Code of Conduct", "href": "#" }
+        ]
+      }
+    ],
+    "socialLinks": [
+      { "platform": "facebook", "href": "https://www.facebook.com/unishivaji.ac.in?mibextid=ZbWKwL" },
+      { "platform": "instagram", "href": "https://www.instagram.com/" },
+      { "platform": "linkedin", "href": "https://in.linkedin.com/school/shivaji-university/" },
+      { "platform": "youtube", "href": "https://www.youtube.com/c/shivvarta" }
+    ]
+  },
+  "pages": [
+    {
+      "title": "Home",
+      "slug": "home",
+      "content": "Shivaji University, Kolhapur is one of the oldest and premier universities in India, established in 1962. It is named after the great Maratha warrior king Chhatrapati Shivaji Maharaj.",
+      "sections": [
+        {
+          "__component": "sections.hero-section",
+          "subheading": "Shaping Bright Minds Through Quality Education",
+          "heading": "Shivaji University: \nEmpowering Future Generations",
+          "buttonText": "Admissions Open",
+          "buttonLink": "/admissions"
+        }
+      ]
+    },
+    {
+      "title": "About Us",
+      "slug": "about-us",
+      "content": "Established in 1962, Shivaji University, Kolhapur is a leading state university in Maharashtra. It offers a wide range of undergraduate, postgraduate and doctoral programmes across faculties of Science and Technology, Commerce and Management, Humanities, and Inter Disciplinary Studies."
+    },
+    {
+      "title": "Academics",
+      "slug": "academics",
+      "content": "Explore the academic programmes, departments, schools, centers and support services offered on the Shivaji University campus."
+    },
+    {
+      "title": "Admissions",
+      "slug": "admissions",
+      "content": "Find information about admission procedures, eligibility, fees and important dates for various programmes at Shivaji University, Kolhapur."
+    },
+    {
+      "title": "Students",
+      "slug": "students",
+      "content": "Resources and information for students including examinations, scholarships, student council, and campus facilities."
+    },
+    {
+      "title": "Research",
+      "slug": "research",
+      "content": "Shivaji University promotes research and innovation through its departments, research centers, incubation center and collaborations."
+    },
+    {
+      "title": "Facilities",
+      "slug": "facilities",
+      "content": "The university provides modern facilities including a central library, computer center, sports complex, guest house and health center."
+    },
+    {
+      "title": "Contact Us",
+      "slug": "contact",
+      "content": "Shivaji University, Kolhapur\nVidyanagar, Kolhapur - 416004, Maharashtra, India\nPhone: (0231) 2609000\nEmail: info@unishivaji.ac.in"
+    }
+  ],
+  "announcements": [
+    {
+      "text": "Shivaji University, Kolhapur is introducing the fully Online M.B.A. Programme from Academic Year 2023-24 (July-August, 2024 Session). Admissions started.",
+      "link": "https://umsshivaji.digivarsity.com/Web/CheckListForm.aspx?Offline=1"
+    },
+    {
+      "text": "For more details visit: online.unishivaji.ac.in",
+      "link": "https://online.unishivaji.ac.in"
+    }
+  ],
+  "departments": [
+    { "name": "Department of Agrochemicals and Pest Management", "link": "https://www.unishivaji.ac.in/dptagpm/" },
+    { "name": "Department of Bio-Chemistry", "link": "https://www.unishivaji.ac.in/dptbiochem/" },
+    { "name": "Department of Bio-Technology", "link": "https://www.unishivaji.ac.in/dptbiotech/" },
+    { "name": "Department of Botany", "link": "https://www.unishivaji.ac.in/dptbot/" },
+    { "name": "Department of Chemistry", "link": "https://www.unishivaji.ac.in/dptchem/" },
+    { "name": "Department of Industrial Chemistry", "link": "https://www.unishivaji.ac.in/dptindchem/" },
+    { "name": "Department of Commerce and Management", "link": "https://www.unishivaji.ac.in/dptcommgmt/" },
+    { "name": "Department of Commerce and Management M.B.A. Unit", "link": "https://www.unishivaji.ac.in/dptmba/" },
+    { "name": "Department of Computer Science", "link": "https://computer.instantbusinesslistings.com/" },
+    { "name": "Department of Economics", "link": "https://www.unishivaji.ac.in/dptecho/" },
+    { "name": "Department of Education", "link": "https://www.unishivaji.ac.in/dptedu/" },
+    { "name": "Department of Electronics", "link": "https://www.unishivaji.ac.in/dptelect/" },
+    { "name": "Department of Statistics", "link": "https://www.unishivaji.ac.in/dptstat/" },
+    { "name": "UGC Center For Coaching For Competitive Examinations", "link": "https://www.unishivaji.ac.in/dptcseis/" },
+    { "name": "Department of English", "link": "https://www.unishivaji.ac.in/dpteng/" },
+    { "name": "Department of Environmental Science", "link": "https://www.unishivaji.ac.in/dptenvsc/" },
+    { "name": "Department of Food Science and Technology", "link": "https://www.unishivaji.ac.in/dptfoodsc/" },
+    { "name": "Department of Foreign Languages", "link": "https://www.unishivaji.ac.in/dptfrgnlang/" },
+    { "name": "Department of Geography", "link": "https://www.unishivaji.ac.in/dptgoe/" },
+    { "name": "Department of Technology", "link": "https://apps.unishivaji.ac.in/" },
+    { "name": "Department of Zoology", "link": "https://www.unishivaji.ac.in/dptzoo/" },
+    { "name": "Department of Hindi", "link": "https://www.unishivaji.ac.in/dpthindi/" },
+    { "name": "Department of History", "link": "https://www.unishivaji.ac.in/dpthistory/" },
+    { "name": "Department of Journalism and Mass Communication", "link": "https://www.unishivaji.ac.in/dptjc/" },
+    { "name": "Department of Law", "link": "https://www.unishivaji.ac.in/dptlaw/" },
+    { "name": "Department of Library and Information Science", "link": "https://www.unishivaji.ac.in/dptlibsc/" },
+    { "name": "School of Nanoscience and Technology", "link": "https://www.unishivaji.ac.in/dptsnt/" },
+    { "name": "Department of Lifelong Learning and Extension", "link": "https://www.unishivaji.ac.in/dptlibsc/" },
+    { "name": "Department of Marathi", "link": "https://www.unishivaji.ac.in/dptmarathi/" },
+    { "name": "Department of Mathematics", "link": "https://www.unishivaji.ac.in/dptmaths/" },
+    { "name": "Department of Mass Communication", "link": "https://www.unishivaji.ac.in/dptmasscomm" },
+    { "name": "Department of Microbiology", "link": "https://www.unishivaji.ac.in/dptmicrobio/" },
+    { "name": "Yashwantrao Chavan School of Rural Development", "link": "https://www.unishivaji.ac.in/dptycsrd/" },
+    { "name": "Department of Music and Dramatics", "link": "https://www.unishivaji.ac.in/dptmusicdrum/" },
+    { "name": "Department of Physics", "link": "https://www.unishivaji.ac.in/dptphy/" },
+    { "name": "Department of Political Science", "link": "https://www.unishivaji.ac.in/dptpolsc/" },
+    { "name": "Department of Psychology", "link": "https://www.unishivaji.ac.in/dptpsychology/Home" },
+    { "name": "Department of Sociology", "link": "https://www.unishivaji.ac.in/dptsocio/" },
+    { "name": "Department of Sports", "link": "https://www.unishivaji.ac.in/dptsports/" }
+  ],
+  "leadership": [
+    { "name": "Shri C. P. Radhakrishnan", "title": "Hon'ble Chancellor" },
+    { "name": "Prof. (Dr.) D. T. Shirke", "title": "Hon'ble Vice Chancellor" },
+    { "name": "Prof. (Dr.) P. S. Patil", "title": "Hon'ble Pro-Vice Chancellor" },
+    { "name": "Dr. V. N. Shinde", "title": "Registrar" }
+  ],
+  "updates": [
+    {
+      "title": "Shivaji University invites Expression Of Interest (EOI) for running Canteen. (Last Date: 20-09-2024)",
+      "link": "#"
+    },
+    {
+      "title": "Workshop on Digital Media and Mass Communication (20th Sept 2024)",
+      "link": "#"
+    },
+    {
+      "title": "दिनांक २०/०९/२०२४ रोजी आयोजित महिला सुरक्षितता व शिष्यवृत्ती एकदिवशीय कार्यशाळेची निमंत्रण पत्रिका व टेबल प्रोग्राम",
+      "link": "https://inherent-duck.jurassic.ninja//srv/htdocs/wp-content/uploads/2024/10/merged1.pdf"
+    },
+    {
+      "title": "Workshop on Digital Media and Revenue Generation on 20th Sept 2024",
+      "link": "https://inherent-duck.jurassic.ninja//srv/htdocs/wp-content/uploads/2024/10/Digital-Media-and-Revenue-Generation.pdf"
+    },
+    {
+      "title": "Joint Programme of MSFDA and IIT Bombay on \"Experiential Learning using Field-based Case Study Approach\"",
+      "link": "https://inherent-duck.jurassic.ninja//srv/htdocs/wp-content/uploads/2024/10/CaseStudyDegree_July24_FlyerT7_10July.pdf"
+    },
+    {
+      "title": "One Day Introductory workshop on Jewellery Design using CAD-CAM and 3-D Printing",
+      "link": "https://inherent-duck.jurassic.ninja//srv/htdocs/wp-content/uploads/2024/10/IIC-SUK_Invitation_Jewellary-Design-and-3-D-Printing_DOT.pdf"
+    },
+    {
+      "title": "Link For Registration (Management Development Programme on \"Future of Work, Workplace and Human Resource\")",
+      "link": "https://www.unishivaji.ac.in/uploads/homenews/B%20ED%20M%20ED%20ADMISSION.pdf"
+    }
+  ],
+  "events": [
+    {
+      "title": "राष्ट्रीय सेवा योजना, शिवाजी विद्यापीठ संलग्नित महाविद्यालयांसाठी विशेष शिबिर (दि. २४ सप्टेंबर २०२४)",
+      "link": "#",
+      "date": "2024-09-24"
+    },
+    {
+      "title": "MONTHLY INNOVATION CHALLENGE - OCTOBER 2024",
+      "link": "#",
+      "date": "2024-10-01"
+    },
+    {
+      "title": "मंगळवार, दि 15 ऑक्टोंबर 2024 रोजी \"स्पर्धा परीक्षा आणि नोकरीच्या संधी\" या विषयावरील व्याख्यान",
+      "link": "https://inherent-duck.jurassic.ninja//srv/htdocs/wp-content/uploads/2024/10/15-Oct-2024-Programm.pdf",
+      "date": "2024-10-15"
+    },
+    {
+      "title": "ज्ञानज्योती सावित्रीबाई फुले पुरस्कार सन 2022-23 बाबत",
+      "link": "https://inherent-duck.jurassic.ninja//srv/htdocs/wp-content/uploads/2024/10/ज्ञानज्योती-सावित्रीबाई-फुले-पुरस्कार-सन-2022-23-बाबत.pdf"
+    },
+    {
+      "title": "Call for Research Article for Journal of Shivaji University, Humanities & Social Science",
+      "link": "https://inherent-duck.jurassic.ninja//srv/htdocs/wp-content/uploads/2024/10/new-Call-for-Research-Papers_-2024.pdf"
+    },
+    {
+      "title": "Department of Education Programmes Admission Flyers",
+      "link": "https://www.unishivaji.ac.in/uploads/homenews/B%20ED%20M%20ED%20ADMISSION.pdf"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "सुयश: आंतरराष्ट्रीय क्रीडा स्पर्धेत शिवाजी विद्यापीठाचे विद्यार्थी भारतासाठी पदकांचा सुवर्णसंधार",
+      "link": "https://unishivsandesh.blogspot.com/"
+    },
+    {
+      "title": "सुयश: राज्यस्तरीय कुस्ती स्पर्धेत शिवाजी विद्यापीठाचे विद्यार्थी ठरले विजेते",
+      "link": "https://unishivsandesh.blogspot.com/"
+    },
+    {
+      "title": "Ankit Rao won Gold in 400m race...",
+      "link": "#"
+    },
+    {
+      "title": "बायोमासपासून औषधनिर्माण क्षेत्रासाठी उपयुक्त संयुगांचे अम्लीय प्रेरित विघटन संशोधन",
+      "link": "https://unishivsandesh.blogspot.com/2024/10/blog-post_17.html"
+    },
+    {
+      "title": "भूस्खलनप्रवण क्षेत्रातील जैवविविधतेच्या संशोधनासाठी शिवाजी विद्यापीठाचे प्रयत्न",
+      "link": "https://unishivsandesh.blogspot.com/2024/10/blog-post_25.html"
+    },
+    {
+      "title": "शिवाजी विद्यापीठात शिष्यवृत्तीविषयक कार्यशाळेत ४५० पेक्षा अधिक विद्यार्थ्यांचा सहभाग",
+      "link": "https://unishivsandesh.blogspot.com/2024/10/blog-post_23.html"
+    },
+    {
+      "title": "लोकशाही टिकण्यासाठी माध्यमांची विश्वासार्हता जपणे गरजेचे",
+      "link": "https://unishivsandesh.blogspot.com/2024/10/blog-post_83.html"
+    }
+  ],
+  "circulars": [
+    {
+      "title": "परिपत्रक - सुधारित कार्यालयीन वेळ (दिनांक २३/०८/२०२३)",
+      "link": "#",
+      "category": "General Administration"
+    },
+    {
+      "title": "National Level Seminar \"Role of NEP in Restructuring Education - 2024\"",
+      "link": "#",
+      "category": "General Administration"
+    },
+    {
+      "title": "Guidelines for Establishment of Endowment fund (New / Increase in amount)",
+      "link": "#",
+      "category": "General Administration"
+    },
+    {
+      "title": "शिवाजी विद्यापीठ कार्यकक्षेतील सर्व महाविद्यालये / मान्यताप्राप्त संस्था यांना माहितीसाठी",
+      "link": "#",
+      "category": "General Administration"
+    },
+    {
+      "title": "परिपत्रक - गुरुवार दि. ३१ ऑक्टोबर, २०२४ रोजी विद्यापीठास सुट्टी जाहीर",
+      "link": "https://www.unishivaji.ac.in/uploads/admin/2024/October/Establishment/22-oct/Image(66).pdf",
+      "category": "General Administration"
+    },
+    {
+      "title": "Notification and Profile - \" Prin. R. K. Kanbarkar Award - 2025 \"",
+      "link": "https://www.unishivaji.ac.in/uploads/admin/2024/October/Est-pg/18-oct/Notification%20and%20Prin-%20R-%20K-%20Kanbarkar%20-%20Profile%20%202025-.pdf",
+      "category": "General Administration"
+    },
+    {
+      "title": "Office Order - Incharge Director, Department of Technology (Prof. Dr. P. D. Patil)",
+      "link": "https://www.unishivaji.ac.in/uploads/admin/2024/October/Est-pg/18-oct/Office%20Order%20-%20Incharge%20Director%2C%20Department%20of%20Technology%20(Pro-%20P-%20D-%20Patil).pdf",
+      "category": "General Administration"
+    },
+    {
+      "title": "रोजंदारी सेवक व इतर सेवकांचे माहे ऑक्टोबर २०२४ चे वेतन दीपावली सणापूर्वी संबंधिताना अदा करणेबाबत",
+      "link": "https://www.unishivaji.ac.in/uploads/admin/2024/October/Establishment/17-oct/Circular-D-W-and%20Other%20Staff%20Payment%20OCT%202024.pdf",
+      "category": "General Administration"
+    },
+    {
+      "title": "परिपत्रक - विशेष स्वच्छता अभियान अनुषंगाने",
+      "link": "https://www.unishivaji.ac.in/uploads/admin/2024/October/Establishment/17-oct/Image(64).pdf",
+      "category": "General Administration"
+    },
+    {
+      "title": "Circular regarding affiliation of new colleges for the Academic Year 2024-25",
+      "link": "#",
+      "category": "Affiliation"
+    },
+    {
+      "title": "Guidelines for Grant of Affiliation to Colleges / Institutions",
+      "link": "#",
+      "category": "Affiliation"
+    },
+    {
+      "title": "Examination Time Table - Winter 2024",
+      "link": "#",
+      "category": "Examination"
+    },
+    {
+      "title": "Examination notification regarding revaluation and verification of answer sheets",
+      "link": "#",
+      "category": "Examination"
+    },
+    {
+      "title": "Budget and Accounts - Financial Guidelines for the year 2024-25",
+      "link": "#",
+      "category": "Finance"
+    },
+    {
+      "title": "Circular regarding grant-in-aid to affiliated colleges",
+      "link": "#",
+      "category": "Finance"
+    },
+    {
+      "title": "Board of Research Development - Research Project Proposal Guidelines",
+      "link": "#",
+      "category": "Board of Research"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Shivaji University Documentary",
+      "link": "https://www.unishivaji.ac.in/videos/Shivaji-University-Documentary"
+    },
+    {
+      "title": "Hon'ble Chancellor message on the occasion of 60th Foundation Day of Shivaji University",
+      "link": "https://www.unishivaji.ac.in/videos/Chancellor-Message-Foundation-Day"
+    },
+    {
+      "title": "Hon'ble Vice Chancellor - Address to Students on International Youth Day at Campus Ground",
+      "link": "https://www.unishivaji.ac.in/videos/VC-Address-International-Youth-Day"
+    },
+    {
+      "title": "A Message From Vice Chancellor, Kolhapur",
+      "link": "https://www.unishivaji.ac.in/videos/Message-From-Vice-Chancellor"
+    },
+    {
+      "title": "Shivaji University Community Radio: 90.4 FM (Tomato FM)",
+      "link": "https://www.unishivaji.ac.in/videos/Tomato-FM-90-4"
+    },
+    {
+      "title": "Krantivan Documentary",
+      "link": "https://www.unishivaji.ac.in/videos/Krantivan-Documentary"
+    },
+    {
+      "title": "Hon Vice Chancellor message on the occasion of 58th Foundation Day of Shivaji University",
+      "link": "https://www.unishivaji.ac.in/videos/Hon-Vice-Chancellor-message-on-the-occasion-of-58th-Foundation-Day-of-Shivaji-University"
+    }
+  ],
+  "importantLinks": [
+    { "name": "NAAC", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/naac.jpg" },
+    { "name": "आपले सरकार", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/aaple-sarkar-logo-1AF3E2BAF7-seeklogo.com_.png" },
+    { "name": "NCTE", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/ncte.png" },
+    { "name": "SUK-AR", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/sukar.png" },
+    { "name": "e-Samadhan", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/E-samadhan_logo_new.png" },
+    { "name": "NEP2020", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/nep2020.jpg" },
+    { "name": "Academic Bank Credit", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/abc.png" },
+    { "name": "Edureform", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/edureform.jpg" },
+    { "name": "SUK Faculty Research Profile", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/irins_logo.png" },
+    { "name": "Shiv Dnyansagar In.Repository", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/ir-sh.jpg" },
+    { "name": "NAD", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/nad-logo-new.png" },
+    { "name": "Rain Water Harvesting", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/rain.jpg" },
+    { "name": "Workshop / Seminar", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/workshop.png" },
+    { "name": "Solar Energy", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/solar-logo.jpg" },
+    { "name": "Ph.D. Thesis", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/shodh.png" },
+    { "name": "MoU's", "url": "#", "imageUrl": "https://inherent-duck.jurassic.ninja/wp-content/uploads/2024/10/mou.jpg" }
+  ],
+  "stats": [
+    { "value": "34", "label": "Departments" },
+    { "value": "2", "label": "Schools" },
+    { "value": "15", "label": "Chairs" },
+    { "value": "26", "label": "Centers" },
+    { "value": "297", "label": "Affiliated Colleges" },
+    { "value": "853", "label": "Campus in Acres" }
+  ],
+  "partners": [
+    { "name": "Skill India", "url": "https://www.skillindiadigital.gov.in" },
+    { "name": "Swachh Bharat", "url": "https://swachhbharatmission.gov.in" },
+    { "name": "MAKE IN INDIA", "url": "https://www.makeinindia.com" },
+    { "name": "Digital India", "url": "https://www.digitalindia.gov.in" }
+  ]
+}

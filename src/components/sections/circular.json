@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_circular_items",
+  "info": {
+    "displayName": "Circular Item",
+    "icon": "filePdf",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "General Administration",
+        "Affiliation",
+        "Examination",
+        "Finance",
+        "Board of Research"
+      ]
+    }
+  }
+}

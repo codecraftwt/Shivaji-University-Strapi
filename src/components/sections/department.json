@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_departments",
+  "info": {
+    "displayName": "Department",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instituteName": {
+      "type": "string"
+    },
+    "instituteSubtitle": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.columns"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.social-link"
+    }
+  }
+}

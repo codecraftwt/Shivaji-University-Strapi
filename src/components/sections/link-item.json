@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_link_items",
+  "info": {
+    "displayName": "Link Item",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

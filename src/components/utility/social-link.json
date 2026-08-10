@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_utility_social_links",
+  "info": {
+    "displayName": "Social Link",
+    "icon": "share-alt"
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "linkedin",
+        "twitter",
+        "youtube"
+      ],
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

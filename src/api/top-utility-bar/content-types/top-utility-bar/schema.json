@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_utility_bars",
+  "info": {
+    "singularName": "top-utility-bar",
+    "pluralName": "top-utility-bars",
+    "displayName": "Top Utility Bar"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utility.language"
+    },
+    "leftLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utility.link"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utility.social-link"
+    },
+    "loginMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utility.link"
+    }
+  }
+}

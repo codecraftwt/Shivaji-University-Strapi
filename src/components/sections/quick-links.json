@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_quick_links",
+  "info": {
+    "displayName": "Quick Links",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utility.quick-link"
+    }
+  }
+}

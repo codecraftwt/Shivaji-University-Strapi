@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "content": {
+      "type": "text"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero-section",
+        "sections.about-content",
+        "sections.about-rit",
+        "sections.stats-counter",
+        "sections.vision-mission",
+        "sections.quick-links",
+        "sections.announcements-ticker",
+        "sections.departments-leadership",
+        "sections.updates-events-achievements",
+        "sections.circulars",
+        "sections.important-links-stats",
+        "sections.documentary-videos",
+        "sections.partner-logos"
+      ]
+    }
+  }
+}

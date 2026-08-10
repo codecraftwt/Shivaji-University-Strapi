@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_departments_leaderships",
+  "info": {
+    "displayName": "Departments & Leadership",
+    "icon": "school",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "departments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.department"
+    },
+    "leadership": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.leadership"
+    }
+  }
+}

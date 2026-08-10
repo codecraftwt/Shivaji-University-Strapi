@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_stats_counters",
+  "info": {
+    "displayName": "Stats Counter",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.stat"
+    }
+  }
+}

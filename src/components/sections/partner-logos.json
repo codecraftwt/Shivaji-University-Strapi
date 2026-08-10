@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_partner_logos",
+  "info": {
+    "displayName": "Partner Logos",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.link-item"
+    }
+  }
+}

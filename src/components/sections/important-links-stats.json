@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_important_links_stats",
+  "info": {
+    "displayName": "Important Links & Stats",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "importantLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.link-item"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.stat"
+    }
+  }
+}

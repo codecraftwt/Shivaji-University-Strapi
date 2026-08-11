@@ -1,4 +1,5 @@
 import type { Core } from '@strapi/strapi';
+import path from 'path';
 
 const allowedMediaTypes = [
   'image/*',
@@ -33,7 +34,7 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
   },
   upload: {
     config: {
-      provider: 'cloudinary',
+      provider: path.resolve(__dirname, '..', 'src', 'providers', 'upload-cloudinary-nodelete'),
       providerOptions: {
         cloud_name: env('CLOUDINARY_NAME'),
         api_key: env('CLOUDINARY_KEY'),

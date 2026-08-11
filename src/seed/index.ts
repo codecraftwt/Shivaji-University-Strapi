@@ -15,19 +15,7 @@ const MAIN_NAVBAR_UID = 'api::main-navbar.main-navbar' as any;
 const PAGE_UID = 'api::page.page';
 const QUICK_LINKS_UID = 'api::quick-links-section.quick-links-section';
 
-const COLLECTION_UIDS = [
-  'api::announcement.announcement',
-  'api::department.department',
-  'api::leadership.leadership',
-  'api::update.update',
-  'api::event.event',
-  'api::achievement.achievement',
-  'api::circular.circular',
-  'api::video.video',
-  'api::important-link.important-link',
-  'api::partner.partner',
-  'api::stat.stat',
-] as const;
+const COLLECTION_UIDS: string[] = [] as any;
 
 const SINGLE_UIDS = [HEADER_UID, FOOTER_UID, MAIN_NAVBAR_UID, QUICK_LINKS_UID] as const;
 
@@ -66,6 +54,7 @@ const ensurePublicReadPermissions = async (strapi: Core.Strapi) => {
 const ensureSingle = async (strapi: Core.Strapi, uid: any, data: any) => {
   const existing = await strapi.documents(uid).findFirst({});
   if (existing) {
+    await strapi.documents(uid).update({ documentId: existing.documentId, data });
     return;
   }
   await strapi.documents(uid).create({ data });
@@ -195,51 +184,6 @@ const buildHomeSections = (data: any) => [
   },
 ];
 
-const syncDepartmentsCollection = async (strapi: Core.Strapi) => {
-  const uid = 'api::department.department';
-  const seedDepartments = seedData.departments.map((d: any) => ({
-    name: d.name,
-    link: d.link,
-  }));
-
-  const existingNames = new Set<string>();
-  const rows = await strapi.db.query(uid).findMany({ select: ['name'] });
-  for (const row of rows as any[]) {
-    if (row.name != null) {
-      existingNames.add(row.name);
-    }
-  }
-
-  for (const entry of seedDepartments) {
-    const existing = await strapi.documents(uid).findFirst({
-      filters: { name: entry.name },
-    });
-    if (existing) {
-      await strapi.documents(uid).update({
-        documentId: existing.documentId,
-        data: entry,
-        status: 'published',
-      });
-    } else {
-      await strapi.documents(uid).create({
-        data: entry,
-        status: 'published',
-      });
-    }
-  }
-
-  const seedNames = new Set(seedDepartments.map((d) => d.name));
-  for (const name of existingNames) {
-    if (!seedNames.has(name)) {
-      const existing = await strapi.documents(uid).findFirst({
-        filters: { name },
-      });
-      if (existing) {
-        await strapi.documents(uid).delete({ documentId: existing.documentId });
-      }
-    }
-  }
-};
 
 const ensureHomeSections = async (strapi: Core.Strapi) => {
   const page = await strapi.documents(PAGE_UID).findFirst({
@@ -418,17 +362,7 @@ const seed = async (strapi: Core.Strapi) => {
   await seedNavItems(strapi);
   await seedMainNavbar(strapi);
 
-  await seedCollection(strapi, 'api::announcement.announcement', seedData.announcements, 'text');
-  await syncDepartmentsCollection(strapi);
-  await seedCollection(strapi, 'api::leadership.leadership', seedData.leadership, 'name');
-  await seedCollection(strapi, 'api::update.update', seedData.updates);
-  await seedCollection(strapi, 'api::event.event', seedData.events);
-  await seedCollection(strapi, 'api::achievement.achievement', seedData.achievements);
-  await seedCollection(strapi, 'api::circular.circular', seedData.circulars);
-  await seedCollection(strapi, 'api::video.video', seedData.videos);
-  await seedCollection(strapi, 'api::important-link.important-link', seedData.importantLinks, 'name');
-  await seedCollection(strapi, 'api::partner.partner', seedData.partners, 'name');
-  await seedCollection(strapi, 'api::stat.stat', seedData.stats, 'label');
+  // Deleted collections seeding removed
 
   await seedCollection(strapi, PAGE_UID, seedData.pages, 'slug');
 

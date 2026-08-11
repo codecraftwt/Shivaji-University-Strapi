@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_image_cards",
+  "info": {
+    "displayName": "image-card",
+    "description": "An image with a label, used in grids"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -26,6 +26,7 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
+        "sections.hero-banner",
         "sections.hero-section",
         "sections.about-content",
         "sections.about-rit",
@@ -38,7 +39,9 @@
         "sections.circulars",
         "sections.important-links-stats",
         "sections.documentary-videos",
-        "sections.partner-logos"
+        "sections.partner-logos",
+        "sections.content-with-image",
+        "sections.image-grid"
       ]
     }
   }

@@ -7,38 +7,67 @@
   "footer": {
     "instituteName": "Shivaji University, Kolhapur",
     "instituteSubtitle": "Maharashtra, India",
-    "address": "Vidyanagar, Kolhapur, Maharashtra, India (416004)",
-    "phone": "+91 231-2609000",
-    "email": "info@unishivaji.ac.in",
+    "logoUrl": "https://university.walstargroup.org/wp-content/uploads/2024/10/shivaji-university-2-min-150x150.png",
+    "description": "Shivaji University, Kolhapur, is a premier educational institution offering a wide range of academic programs and research initiatives.",
+    "quickLinksTitle": "Quick Link",
+    "quickLinks": [
+      { "label": "Home", "href": "https://university.walstargroup.org/" },
+      { "label": "About Us", "href": "https://www.unishivaji.ac.in/about_suk/about-us" },
+      { "label": "Academics", "href": "https://university.walstargroup.org/academics/" },
+      { "label": "Research", "href": "https://sukapps.unishivaji.ac.in/pgbutr/#/research-topics" },
+      { "label": "Governance", "href": "https://www.unishivaji.ac.in/Administration/Registrar-Desk" },
+      { "label": "Contact", "href": "tel:+912312609000" }
+    ],
+    "address": "Shivaji University, Vidyanagar, Kolhapur - 416 004, Maharashtra, India.",
+    "phone": "(0231) 2609000",
+    "email": "mail.unishivaji.ac.in",
     "columns": [
       {
-        "title": "Useful Links",
+        "title": "Col1",
         "links": [
-          { "label": "Admissions", "href": "#" },
-          { "label": "Examinations", "href": "#" },
-          { "label": "Departments", "href": "#" },
-          { "label": "Affiliated Colleges", "href": "#" },
-          { "label": "Mandatory Disclosure", "href": "#" }
+          { "label": "Quick Links", "href": "https://www.unishivaji.ac.in/about_suk/Quick%20Links" },
+          { "label": "Placement Cell", "href": "https://www.unishivaji.ac.in/placement/" },
+          { "label": "Students' Council Election", "href": "https://www.unishivaji.ac.in/student/Student-Council" },
+          { "label": "Madhyamvidhya / Media Spectrum", "href": "https://www.unishivaji.ac.in/media" },
+          { "label": "Special Cell", "href": "https://www.unishivaji.ac.in/Administration/Special-Cell" },
+          { "label": "शिवसंदेश", "href": "https://unishivsandesh.blogspot.com/" },
+          { "label": "Compiled online literature on Chhatrapati Shivaji Maharaj", "href": "https://www.unishivaji.ac.in/library/Compiled-Online-Literature-on-Chhatrapati-Shivaji-Maharaj" }
         ]
       },
       {
-        "title": "Quick Links",
+        "title": "Col2",
         "links": [
-          { "label": "Library", "href": "#" },
-          { "label": "Placement Cell", "href": "#" },
-          { "label": "NIRF", "href": "#" },
-          { "label": "Student Portal", "href": "#" },
-          { "label": "e-Governance", "href": "#" }
+          { "label": "Intranet", "href": "https://intranet.unishivaji.ac.in/Circularsrch.asp" },
+          { "label": "Online Receipt Portal", "href": "https://www.unishivaji.ac.in/about_suk/Online%20Receipt%20Portal" },
+          { "label": "University Publications", "href": "https://www.unishivaji.ac.in/uploads/placement/2024/April/30-April/publication%20pdf.pdf" },
+          { "label": "विद्यापीठ गीत", "href": "https://www.unishivaji.ac.in/uploads/suk/2023/NOVEMBER/vidyapith-geet/AUD-20231130-WA0054.mp3" },
+          { "label": "अभिवादन स्वातंत्र्यसैनिकांना मालिका (एपिसोडनिहाय यादी)", "href": "https://www.unishivaji.ac.in/uploads/general/2023/AUGUST%202023/PUBLIC%20RELATION/ABHIVADAN%20SWATANTRYA%20SAINIKANA%20YADI.pdf" },
+          { "label": "SUK in Media", "href": "https://www.unishivaji.ac.in/about_suk/SUK-Daily-News-2024" },
+          { "label": "Photo Gallery", "href": "#" }
         ]
       },
       {
-        "title": "Other Links",
+        "title": "Col3",
         "links": [
-          { "label": "Alumni", "href": "#" },
-          { "label": "Research", "href": "#" },
-          { "label": "RTI", "href": "#" },
-          { "label": "Grievances Redressal", "href": "#" },
-          { "label": "Code of Conduct", "href": "#" }
+          { "label": "Grievance Redressal", "href": "#" },
+          { "label": "Avishkar", "href": "#" },
+          { "label": "Other Tenders / Quotations", "href": "#" },
+          { "label": "विद्यापीठ गीत रिंगटोन", "href": "#" },
+          { "label": "MILLET The Natures Crop (A Compilation Book)", "href": "#" },
+          { "label": "शिव-वार्ता", "href": "#" },
+          { "label": "Right to Information", "href": "#" }
+        ]
+      },
+      {
+        "title": "Col4",
+        "links": [
+          { "label": "Recruitments", "href": "#" },
+          { "label": "Mobile Apps", "href": "#" },
+          { "label": "Archive", "href": "#" },
+          { "label": "Anti Ragging Information", "href": "#" },
+          { "label": "शिव-वाणी", "href": "#" },
+          { "label": "Coffee Table Book", "href": "#" },
+          { "label": "Coffee Table Books-Birds", "href": "#" }
         ]
       }
     ],
@@ -47,7 +76,9 @@
       { "platform": "instagram", "href": "https://www.instagram.com/" },
       { "platform": "linkedin", "href": "https://in.linkedin.com/school/shivaji-university/" },
       { "platform": "youtube", "href": "https://www.youtube.com/c/shivvarta" }
-    ]
+    ],
+    "copyrightText": "Copyright ©Shivaji University Kolhapur 2024 . All rights reserved.",
+    "developerText": "Design & Developed by <span class=\"text-[#FF7B12]\">Walstar Media LLP</span>"
   },
   "pages": [
     {
@@ -68,6 +99,43 @@
       "title": "About Us",
       "slug": "about-us",
       "content": "Established in 1962, Shivaji University, Kolhapur is a leading state university in Maharashtra. It offers a wide range of undergraduate, postgraduate and doctoral programmes across faculties of Science and Technology, Commerce and Management, Humanities, and Inter Disciplinary Studies."
+    },
+    {
+      "title": "About Kolhapur City",
+      "slug": "About-Kolhapur",
+      "content": "",
+      "sections": [
+        {
+          "__component": "sections.hero-banner",
+          "title": "ABOUT SUK"
+        },
+        {
+          "__component": "sections.content-with-image",
+          "title": "About Kolhapur City",
+          "content": "Kolhapur is famous for being a centre of Art, education, Industry and sports, particularly wrestling. Here the wrestling is called as \"Kusti\" and wrestlers are known as \"Malla\". This wrestling match is played in the square clay ground which is known as \"Akhada\".\n\nSimilar to \"The Operation Flood\" project in Gujrat, in Kolhapur the \"Warna Project\" was started and till date is famous for huge amount of generation of milk and milk products which are transported to the all over of India.\n\nKolhapur comes under sugarcane belt and because of this people are very rich and live prosperous life.\n\nKolhapuri chappals are renowned for their durability and beauty of make.",
+          "imagePosition": "none"
+        },
+        {
+          "__component": "sections.content-with-image",
+          "title": "Reaching Kolhapur City",
+          "content": "As it is an important journey station from Bombay to Goa via Pune, the Ujalaiwadi airport is 10 km away from Kolhapur main city. One can also travel from Kolhapur to major cities like Pune, Mumbai, Delhi, and Bangalore.\n\nState Transport Corporation operates buses for all major cities from Kolhapur to all over Maharashtra, Karnataka, and Goa.\n\nPrivate buses and travels operates luxury and AC services for all over Maharashtra, Karnataka, and Goa.",
+          "imagePosition": "none"
+        },
+        {
+          "__component": "sections.image-grid",
+          "title": "PRIME ATTRACTIONS",
+          "items": [
+            { "label": "Mahalaxmi Temple" },
+            { "label": "Town Hall" },
+            { "label": "Bhavani Mandap" },
+            { "label": "Rankala Lake" },
+            { "label": "Kolhapuri Saaj Jewelry" },
+            { "label": "Jyotiba Temple" },
+            { "label": "Panhala Fort" },
+            { "label": "New Palace" }
+          ]
+        }
+      ]
     },
     {
       "title": "Academics",

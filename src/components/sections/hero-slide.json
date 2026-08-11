@@ -15,10 +15,16 @@
         "images"
       ]
     },
-    "title": {
+    "subheading": {
       "type": "string"
     },
-    "subtitle": {
+    "heading": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
       "type": "string"
     }
   }

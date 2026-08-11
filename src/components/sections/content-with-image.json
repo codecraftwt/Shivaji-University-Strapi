@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_content_with_images",
+  "info": {
+    "displayName": "content-with-image",
+    "description": "Rich text content with an optional aligned image"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "none"
+      ],
+      "default": "none"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

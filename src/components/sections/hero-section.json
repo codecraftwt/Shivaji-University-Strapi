@@ -6,25 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "subheading": {
-      "type": "string"
-    },
-    "heading": {
-      "type": "text"
-    },
-    "buttonText": {
-      "type": "string"
-    },
-    "buttonLink": {
-      "type": "string"
-    },
-    "backgroundImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.hero-slide"
     }
   }
 }

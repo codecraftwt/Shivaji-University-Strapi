@@ -159,6 +159,21 @@ export interface SectionsCirculars extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionsContentWithImage extends Struct.ComponentSchema {
+  collectionName: 'components_sections_content_with_images';
+  info: {
+    description: 'Rich text content with an optional aligned image';
+    displayName: 'content-with-image';
+  };
+  attributes: {
+    content: Schema.Attribute.RichText;
+    image: Schema.Attribute.Media<'images'>;
+    imagePosition: Schema.Attribute.Enumeration<['left', 'right', 'none']> &
+      Schema.Attribute.DefaultTo<'none'>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface SectionsDepartment extends Struct.ComponentSchema {
   collectionName: 'components_sections_departments';
   info: {
@@ -197,6 +212,18 @@ export interface SectionsDocumentaryVideos extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionsHeroBanner extends Struct.ComponentSchema {
+  collectionName: 'components_sections_hero_banners';
+  info: {
+    description: 'A static hero banner with an image and a title for subpages.';
+    displayName: 'hero-banner';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images'>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface SectionsHeroSection extends Struct.ComponentSchema {
   collectionName: 'components_sections_hero_sections';
   info: {
@@ -204,11 +231,7 @@ export interface SectionsHeroSection extends Struct.ComponentSchema {
     displayName: 'hero-section';
   };
   attributes: {
-    backgroundImage: Schema.Attribute.Media<'images'>;
-    buttonLink: Schema.Attribute.String;
-    buttonText: Schema.Attribute.String;
-    heading: Schema.Attribute.Text;
-    subheading: Schema.Attribute.String;
+    slides: Schema.Attribute.Component<'sections.hero-slide', true>;
   };
 }
 
@@ -220,8 +243,22 @@ export interface SectionsHeroSlide extends Struct.ComponentSchema {
     icon: 'picture';
   };
   attributes: {
+    buttonLink: Schema.Attribute.String;
+    buttonText: Schema.Attribute.String;
+    heading: Schema.Attribute.Text;
     image: Schema.Attribute.Media<'images'>;
-    subtitle: Schema.Attribute.String;
+    subheading: Schema.Attribute.String;
+  };
+}
+
+export interface SectionsImageGrid extends Struct.ComponentSchema {
+  collectionName: 'components_sections_image_grids';
+  info: {
+    description: 'A grid of images with titles';
+    displayName: 'image-grid';
+  };
+  attributes: {
+    items: Schema.Attribute.Component<'shared.image-card', true>;
     title: Schema.Attribute.String;
   };
 }
@@ -378,6 +415,18 @@ export interface SectionsVisionMission extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedImageCard extends Struct.ComponentSchema {
+  collectionName: 'components_shared_image_cards';
+  info: {
+    description: 'An image with a label, used in grids';
+    displayName: 'image-card';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images'>;
+    label: Schema.Attribute.String;
+  };
+}
+
 export interface UtilityLanguage extends Struct.ComponentSchema {
   collectionName: 'components_utility_languages';
   info: {
@@ -470,11 +519,14 @@ declare module '@strapi/strapi' {
       'sections.announcements-ticker': SectionsAnnouncementsTicker;
       'sections.circular': SectionsCircular;
       'sections.circulars': SectionsCirculars;
+      'sections.content-with-image': SectionsContentWithImage;
       'sections.department': SectionsDepartment;
       'sections.departments-leadership': SectionsDepartmentsLeadership;
       'sections.documentary-videos': SectionsDocumentaryVideos;
+      'sections.hero-banner': SectionsHeroBanner;
       'sections.hero-section': SectionsHeroSection;
       'sections.hero-slide': SectionsHeroSlide;
+      'sections.image-grid': SectionsImageGrid;
       'sections.important-links-stats': SectionsImportantLinksStats;
       'sections.leadership': SectionsLeadership;
       'sections.link-item': SectionsLinkItem;
@@ -486,6 +538,7 @@ declare module '@strapi/strapi' {
       'sections.title-link': SectionsTitleLink;
       'sections.updates-events-achievements': SectionsUpdatesEventsAchievements;
       'sections.vision-mission': SectionsVisionMission;
+      'shared.image-card': SharedImageCard;
       'utility.language': UtilityLanguage;
       'utility.link': UtilityLink;
       'utility.quick-link': UtilityQuickLink;

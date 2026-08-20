@@ -14,10 +14,11 @@ const NAV_ITEM_UID = 'api::nav-item.nav-item' as any;
 const MAIN_NAVBAR_UID = 'api::main-navbar.main-navbar' as any;
 const PAGE_UID = 'api::page.page';
 const QUICK_LINKS_UID = 'api::quick-links-section.quick-links-section';
+const TOP_UTILITY_BAR_UID = 'api::top-utility-bar.top-utility-bar' as any;
 
 const COLLECTION_UIDS: string[] = [] as any;
 
-const SINGLE_UIDS = [HEADER_UID, FOOTER_UID, MAIN_NAVBAR_UID, QUICK_LINKS_UID] as const;
+const SINGLE_UIDS = [HEADER_UID, FOOTER_UID, MAIN_NAVBAR_UID, QUICK_LINKS_UID, TOP_UTILITY_BAR_UID] as const;
 
 const ensurePublicReadPermissions = async (strapi: Core.Strapi) => {
   const publicRole = await strapi.db
@@ -358,6 +359,7 @@ const seed = async (strapi: Core.Strapi) => {
   });
 
   await ensureSingle(strapi, FOOTER_UID, seedData.footer);
+  await ensureSingle(strapi, TOP_UTILITY_BAR_UID, (seedData as any).topUtilityBar);
 
   await seedNavItems(strapi);
   await seedMainNavbar(strapi);

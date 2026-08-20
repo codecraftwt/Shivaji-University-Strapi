@@ -34,7 +34,11 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
   },
   upload: {
     config: {
-      provider: path.resolve(__dirname, '..', 'src', 'providers', 'upload-cloudinary-nodelete'),
+      provider: (() => {
+        const isDist = __dirname.includes('dist');
+        const relPath = isDist ? '../../src/providers/upload-cloudinary-nodelete' : '../src/providers/upload-cloudinary-nodelete';
+        return require.resolve(path.resolve(__dirname, relPath));
+      })(),
       providerOptions: {
         cloud_name: env('CLOUDINARY_NAME'),
         api_key: env('CLOUDINARY_KEY'),

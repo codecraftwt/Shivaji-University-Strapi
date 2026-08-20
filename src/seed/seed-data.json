@@ -4,6 +4,31 @@
     "phone": "(0231) 2609000",
     "email": "info@unishivaji.ac.in"
   },
+  "topUtilityBar": {
+    "languages": [
+      { "code": "mr", "label": "Marathi" }
+    ],
+    "leftLinks": [
+      { "label": "To Content", "url": "#content", "icon": "chevron-down" },
+      { "label": "To Navigation", "url": "#menu", "icon": "chevron-down" },
+      { "label": "Screen Reader", "url": "https://www.unishivaji.ac.in/general/screem-reader", "icon": "eye" },
+      { "label": "(0231) 2609000", "url": "tel:+912312609000", "icon": "phone" }
+    ],
+    "socialLinks": [
+      { "platform": "facebook", "url": "https://www.facebook.com/unishivaji.ac.in?mibextid=ZbWKwL" },
+      { "platform": "instagram", "url": "https://www.instagram.com/" },
+      { "platform": "linkedin", "url": "https://in.linkedin.com/school/shivaji-university/" }
+    ],
+    "loginMenu": [
+      { "label": "Faculty", "url": "#" },
+      { "label": "Student", "url": "#" },
+      { "label": "Email Login", "url": "#" },
+      { "label": "Staff", "url": "#" },
+      { "label": "Research", "url": "#" },
+      { "label": "Colleges", "url": "#" },
+      { "label": "Section login", "url": "#" }
+    ]
+  },
   "footer": {
     "instituteName": "Shivaji University, Kolhapur",
     "instituteSubtitle": "Maharashtra, India",

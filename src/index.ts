@@ -15,6 +15,11 @@ export default {
    */
   async bootstrap({ strapi }: { strapi: Core.Strapi }) {
     // Run the seed script to populate quick links and other default data
-    await seed(strapi);
+    if (process.env.RUN_SEED === 'true') {
+      strapi.log.info('Running database seeding...');
+      await seed(strapi);
+    } else {
+      strapi.log.info('Database seeding is skipped. Set RUN_SEED=true to run it.');
+    }
   },
 };

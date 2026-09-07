@@ -404,6 +404,19 @@ export interface SectionsTitleLink extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionsTouristInterestPrimeAttractions
+  extends Struct.ComponentSchema {
+  collectionName: 'components_sections_tourist_interest_prime_attractions';
+  info: {
+    displayName: 'tourist_Interest_Prime_Attractions';
+  };
+  attributes: {
+    Discription: Schema.Attribute.RichText;
+    main_title: Schema.Attribute.String;
+    Prime_attractions: Schema.Attribute.Component<'sections.image-grid', true>;
+  };
+}
+
 export interface SectionsUpdatesEventsAchievements
   extends Struct.ComponentSchema {
   collectionName: 'components_sections_updates_events_achievements';
@@ -446,19 +459,6 @@ export interface SharedImageCard extends Struct.ComponentSchema {
   attributes: {
     image: Schema.Attribute.Media<'images'>;
     label: Schema.Attribute.String;
-  };
-}
-
-export interface SharedTouristInterestPrimeAttractions
-  extends Struct.ComponentSchema {
-  collectionName: 'components_shared_tourist_interest_prime_attractions';
-  info: {
-    displayName: 'tourist_Interest_Prime_Attractions';
-  };
-  attributes: {
-    Discription: Schema.Attribute.RichText;
-    main_title: Schema.Attribute.String;
-    Prime_attractions: Schema.Attribute.Component<'sections.image-grid', true>;
   };
 }
 
@@ -573,10 +573,10 @@ declare module '@strapi/strapi' {
       'sections.stats-counter': SectionsStatsCounter;
       'sections.ticker-item': SectionsTickerItem;
       'sections.title-link': SectionsTitleLink;
+      'sections.tourist-interest-prime-attractions': SectionsTouristInterestPrimeAttractions;
       'sections.updates-events-achievements': SectionsUpdatesEventsAchievements;
       'sections.vision-mission': SectionsVisionMission;
       'shared.image-card': SharedImageCard;
-      'shared.tourist-interest-prime-attractions': SharedTouristInterestPrimeAttractions;
       'utility.language': UtilityLanguage;
       'utility.link': UtilityLink;
       'utility.quick-link': UtilityQuickLink;

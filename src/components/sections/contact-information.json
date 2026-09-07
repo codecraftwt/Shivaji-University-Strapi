@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_contact_informations",
+  "info": {
+    "displayName": "Contact_Information"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "component",
+      "component": "sections.contact-data",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

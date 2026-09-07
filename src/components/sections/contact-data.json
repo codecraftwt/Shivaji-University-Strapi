@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_contact_data",
+  "info": {
+    "displayName": "Contact_data"
+  },
+  "options": {},
+  "attributes": {
+    "office": {
+      "type": "string"
+    },
+    "Numbers": {
+      "type": "text"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Links": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

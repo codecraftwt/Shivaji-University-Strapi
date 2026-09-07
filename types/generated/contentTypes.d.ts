@@ -619,7 +619,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'sections.image-grid',
         'sections.reaching-kolhapur-city',
         'sections.tourist-interest-prime-attractions',
-        'sections.contact-info',
+        'sections.contact-information',
       ]
     >;
     slug: Schema.Attribute.String &

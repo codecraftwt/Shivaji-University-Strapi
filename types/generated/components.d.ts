@@ -159,6 +159,19 @@ export interface SectionsCirculars extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionsContactData extends Struct.ComponentSchema {
+  collectionName: 'components_sections_contact_data';
+  info: {
+    displayName: 'Contact_data';
+  };
+  attributes: {
+    Email: Schema.Attribute.String;
+    Links: Schema.Attribute.String;
+    Numbers: Schema.Attribute.Text;
+    office: Schema.Attribute.String;
+  };
+}
+
 export interface SectionsContactInfo extends Struct.ComponentSchema {
   collectionName: 'components_sections_contact_infos';
   info: {
@@ -169,6 +182,17 @@ export interface SectionsContactInfo extends Struct.ComponentSchema {
     Link_for_sub_sections: Schema.Attribute.Text;
     office: Schema.Attribute.String;
     Phone_Number: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface SectionsContactInformation extends Struct.ComponentSchema {
+  collectionName: 'components_sections_contact_informations';
+  info: {
+    displayName: 'Contact_Information';
+  };
+  attributes: {
+    info: Schema.Attribute.Component<'sections.contact-data', true>;
     title: Schema.Attribute.String;
   };
 }
@@ -568,7 +592,9 @@ declare module '@strapi/strapi' {
       'sections.announcements-ticker': SectionsAnnouncementsTicker;
       'sections.circular': SectionsCircular;
       'sections.circulars': SectionsCirculars;
+      'sections.contact-data': SectionsContactData;
       'sections.contact-info': SectionsContactInfo;
+      'sections.contact-information': SectionsContactInformation;
       'sections.content-with-image': SectionsContentWithImage;
       'sections.department': SectionsDepartment;
       'sections.departments-leadership': SectionsDepartmentsLeadership;

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_reaching_kolhapur_city_s",
+  "info": {
+    "displayName": "ReachingKolhapurCity  "
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "reaching_type": {
+      "type": "component",
+      "component": "sections.reaching-type",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

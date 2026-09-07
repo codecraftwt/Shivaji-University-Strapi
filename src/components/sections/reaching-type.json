@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_reaching_types",
+  "info": {
+    "displayName": "reaching_type"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

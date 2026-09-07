@@ -329,6 +329,28 @@ export interface SectionsQuickLinks extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionsReachingKolhapurCity extends Struct.ComponentSchema {
+  collectionName: 'components_sections_reaching_kolhapur_city_s';
+  info: {
+    displayName: 'ReachingKolhapurCity  ';
+  };
+  attributes: {
+    reaching_type: Schema.Attribute.Component<'sections.reaching-type', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface SectionsReachingType extends Struct.ComponentSchema {
+  collectionName: 'components_sections_reaching_types';
+  info: {
+    displayName: 'reaching_type';
+  };
+  attributes: {
+    discription: Schema.Attribute.Text;
+    type: Schema.Attribute.String;
+  };
+}
+
 export interface SectionsStat extends Struct.ComponentSchema {
   collectionName: 'components_sections_stats';
   info: {
@@ -424,6 +446,19 @@ export interface SharedImageCard extends Struct.ComponentSchema {
   attributes: {
     image: Schema.Attribute.Media<'images'>;
     label: Schema.Attribute.String;
+  };
+}
+
+export interface SharedTouristInterestPrimeAttractions
+  extends Struct.ComponentSchema {
+  collectionName: 'components_shared_tourist_interest_prime_attractions';
+  info: {
+    displayName: 'tourist_Interest_Prime_Attractions';
+  };
+  attributes: {
+    Discription: Schema.Attribute.RichText;
+    main_title: Schema.Attribute.String;
+    Prime_attractions: Schema.Attribute.Component<'sections.image-grid', true>;
   };
 }
 
@@ -532,6 +567,8 @@ declare module '@strapi/strapi' {
       'sections.link-item': SectionsLinkItem;
       'sections.partner-logos': SectionsPartnerLogos;
       'sections.quick-links': SectionsQuickLinks;
+      'sections.reaching-kolhapur-city': SectionsReachingKolhapurCity;
+      'sections.reaching-type': SectionsReachingType;
       'sections.stat': SectionsStat;
       'sections.stats-counter': SectionsStatsCounter;
       'sections.ticker-item': SectionsTickerItem;
@@ -539,6 +576,7 @@ declare module '@strapi/strapi' {
       'sections.updates-events-achievements': SectionsUpdatesEventsAchievements;
       'sections.vision-mission': SectionsVisionMission;
       'shared.image-card': SharedImageCard;
+      'shared.tourist-interest-prime-attractions': SharedTouristInterestPrimeAttractions;
       'utility.language': UtilityLanguage;
       'utility.link': UtilityLink;
       'utility.quick-link': UtilityQuickLink;

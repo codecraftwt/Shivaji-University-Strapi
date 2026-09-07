@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_contact_infos",
+  "info": {
+    "displayName": "Contact_info"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "office": {
+      "type": "string"
+    },
+    "Phone_Number": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Link_for_sub_sections": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

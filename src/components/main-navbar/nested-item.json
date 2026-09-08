@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_main_navbar_nested_items",
+  "info": {
+    "displayName": "nested_item"
+  },
+  "options": {},
+  "attributes": {
+    "lable": {
+      "type": "string"
+    },
+    "href": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

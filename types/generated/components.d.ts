@@ -72,6 +72,17 @@ export interface MainNavbarMenuItem extends Struct.ComponentSchema {
   };
 }
 
+export interface MainNavbarNestedItem extends Struct.ComponentSchema {
+  collectionName: 'components_main_navbar_nested_items';
+  info: {
+    displayName: 'nested_item';
+  };
+  attributes: {
+    href: Schema.Attribute.Text;
+    lable: Schema.Attribute.String;
+  };
+}
+
 export interface MainNavbarSubItem extends Struct.ComponentSchema {
   collectionName: 'components_main_navbar_sub_items';
   info: {
@@ -82,6 +93,10 @@ export interface MainNavbarSubItem extends Struct.ComponentSchema {
   attributes: {
     href: Schema.Attribute.String;
     label: Schema.Attribute.String;
+    nested_nav_items: Schema.Attribute.Component<
+      'main-navbar.nested-item',
+      true
+    >;
   };
 }
 
@@ -586,6 +601,7 @@ declare module '@strapi/strapi' {
       'footer.social-link': FooterSocialLink;
       'main-navbar.dropdown-item': MainNavbarDropdownItem;
       'main-navbar.menu-item': MainNavbarMenuItem;
+      'main-navbar.nested-item': MainNavbarNestedItem;
       'main-navbar.sub-item': MainNavbarSubItem;
       'sections.about-content': SectionsAboutContent;
       'sections.about-rit': SectionsAboutRit;

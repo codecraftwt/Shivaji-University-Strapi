@@ -12,6 +12,11 @@
     },
     "href": {
       "type": "string"
+    },
+    "nested_nav_items": {
+      "type": "component",
+      "component": "main-navbar.nested-item",
+      "repeatable": true
     }
   }
 }
